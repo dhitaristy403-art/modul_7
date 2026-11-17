@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Digital | Tyass</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">TYASS.DEV</a>
+    <nav class="site-nav" aria-label="Navigasi utama">
+      <a class="active" href="index.html">Beranda</a>
+      <a href="proyek.html">Proyek</a>
+      <a href="kontak.html">Kontak</a>
+      <a href="kalkulator.html">Kalkulator Rapor</a>
+    </nav>
+    <button type="button" id="tombol-tema" class="theme-button">Mode Gelap</button>
+  </header>
+
+  <main class="page-wrapper">
+    <article class="profile-card">
+      <section class="profile-aside">
+        <div class="avatar-box"><img src="poto1.jpeg" alt="Foto profil Tyass" class="avatar-img" onerror="this.style.display='none';this.parentElement.textContent='✿'"></div>
+        <h1 class="student-name">Ristyandhita Eva Wahyuningtyas</h1>
+        <p class="student-role">Junior Web Developer</p>
+        <p class="student-school">SMKN Takeran · Rekayasa Perangkat Lunak</p>
+        <a class="primary-link" href="kontak.html">Kirim Pesan</a>
+        <a class="secondary-link" href="kalkulator.html">Buka Kalkulator Rapor</a>
+      </section>
+
+      <section class="profile-content">
+        <div>
+          <p class="eyebrow">HALO, SELAMAT DATANG</p>
+          <h2>Tentang Saya</h2>
+          <p class="bio-text">Saya siswa kelas 10 Rekayasa Perangkat Lunak yang sedang belajar membuat website menggunakan HTML, CSS, dan JavaScript. Saya tertarik pada desain web yang responsif dan tampilan yang nyaman digunakan.</p>
+        </div>
+        <div>
+          <h2>Keahlian &amp; Kompetensi</h2>
+          <ul id="daftar-skill" class="skill-list"></ul>
+          <p id="jumlah-skill" class="small-note"></p>
+        </div>
+        <div class="mini-panel">
+          <h2>Jelajahi Website</h2>
+          <p>Lihat hasil latihan dan proyek yang sudah saya kerjakan.</p>
+          <a href="proyek.html" class="text-link">Lihat daftar proyek →</a>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="site-footer">© 2026 Tyass · Dibuat untuk tugas UBIG P1-W07</footer>
+</body>
+</html>

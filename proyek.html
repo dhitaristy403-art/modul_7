@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyek | Tyass</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">TYASS.DEV</a>
+    <nav class="site-nav" aria-label="Navigasi utama">
+      <a href="index.html">Beranda</a><a class="active" href="proyek.html">Proyek</a>
+      <a href="kontak.html">Kontak</a><a href="kalkulator.html">Kalkulator Rapor</a>
+    </nav>
+    <button type="button" id="tombol-tema" class="theme-button">Mode Gelap</button>
+  </header>
+  <main class="content-wrapper">
+    <p class="eyebrow">KARYA &amp; LATIHAN</p>
+    <h1>Daftar Proyek</h1>
+    <p class="page-intro">Beberapa latihan dan hasil belajar saya selama mempelajari pengembangan web.</p>
+    <div class="filter" aria-label="Filter kategori proyek">
+      <button type="button" class="filter-button active" id="filter-semua" aria-pressed="true">Semua</button>
+      <button type="button" class="filter-button" id="filter-html" aria-pressed="false">HTML</button>
+      <button type="button" class="filter-button" id="filter-css" aria-pressed="false">CSS</button>
+      <button type="button" class="filter-button" id="filter-javascript" aria-pressed="false">JavaScript</button>
+    </div>
+    <p id="jumlah-proyek" class="small-note" aria-live="polite"></p>
+    <div class="project-grid" id="daftar-proyek"></div>
+  </main>
+  <footer class="site-footer">© 2026 Tyass · Portofolio pembelajaran</footer>
+</body>
+</html>

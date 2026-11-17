@@ -1,0 +1,28 @@
+PROJECT TYASS - PORTOFOLIO UBIG P1-W07 + KALKULATOR RAPOR
+
+File utama:
+- index.html: halaman Beranda/profil dan daftar keahlian dinamis.
+- proyek.html: halaman proyek dengan empat filter kategori.
+- kontak.html: formulir kontak dan penghitung karakter 0-300.
+- kalkulator.html: kalkulator nilai rapor.
+- style.css: gaya utama pink dan variabel tema terang/gelap.
+- kalkulator.css: gaya khusus kalkulator.
+- js/main.js: implementasi Array, Object, DOM, Event, tema, dan filter sesuai Modul P1-W07.
+- kalkulator.js: logika kalkulator rapor.
+- js/latihan.js dan js/logika.js: arsip latihan sebelumnya, tidak dipanggil otomatis.
+
+Cara menjalankan:
+1. Ekstrak ZIP.
+2. Buka folder hasil ekstrak di VS Code.
+3. Jalankan index.html dengan Live Server.
+4. Gunakan menu Beranda, Proyek, Kontak, dan Kalkulator Rapor.
+5. Coba tombol Mode Gelap di setiap halaman.
+6. Pada halaman Proyek, coba filter Semua, HTML, CSS, dan JavaScript.
+7. Pada halaman Kontak, ketik pesan untuk melihat hitungan karakter.
+
+Catatan:
+- Foto profil memakai file poto1.jpg. Letakkan foto milikmu dengan nama tersebut di folder utama.
+- Foto pada kalkulator dipilih langsung dari tombol Pilih Foto.
+- Form kontak hanya demonstrasi di browser dan tidak mengirim pesan ke email/server.
+- Data proyek memakai simbol/ikon sebagai placeholder. Ganti dengan screenshot proyek sendiri bila sudah tersedia.
+- Kalkulator: KKM 75; predikat A >= 90, B >= 80, C >= 70, D < 70; sertifikat jika lulus KKM dan kehadiran minimal 80%.

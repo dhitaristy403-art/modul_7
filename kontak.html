@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak | Tyass</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">TYASS.DEV</a>
+    <nav class="site-nav" aria-label="Navigasi utama">
+      <a href="index.html">Beranda</a><a href="proyek.html">Proyek</a>
+      <a class="active" href="kontak.html">Kontak</a><a href="kalkulator.html">Kalkulator Rapor</a>
+    </nav>
+    <button type="button" id="tombol-tema" class="theme-button">Mode Gelap</button>
+  </header>
+  <main class="content-wrapper narrow">
+    <p class="eyebrow">HUBUNGI SAYA</p>
+    <h1>Kontak</h1>
+    <p class="page-intro">Silakan tulis pesan melalui formulir berikut.</p>
+    <section class="content-card">
+      <form id="form-kontak">
+        <label for="nama-kontak">Nama</label>
+        <input id="nama-kontak" name="nama" type="text" placeholder="Nama kamu" required>
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="6" maxlength="300" placeholder="Tulis pesanmu di sini (maksimal 300 karakter)" required></textarea>
+        <span id="hitung-karakter" class="small-note">0/300 karakter</span>
+        <button type="submit" class="primary-button">Tampilkan Pesan</button>
+        <p id="hasil-kontak" class="form-feedback" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">© 2026 Tyass</footer>
+</body>
+</html>
